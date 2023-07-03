@@ -23,5 +23,3 @@ def read_db_config(filename='config.ini', section='mysql'):
     
     
     return db
-
-#read_db_config()
