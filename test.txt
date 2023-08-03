@@ -1,0 +1,30 @@
+File Descriptions
+Network Data: The arin_net.tsv contains all the registered networks with ARIN and the unique identifier
+for the organization or customer that owns the network. The primary key is cidr and it should be unique.
+
+Organization Data: The arin_org.tsv contains all the organizations registered in ARIN. The primary key 
+is
+org_id and it should be unique.
+
+Customer Data: The arin_cust.tsv contains all the customers registered in ARIN. The primary key is
+cust_id and it should be unique.
+
+Network Data
+• net_id: Network identifier, unique (text)
+• net_name: Network Name, not unique (text)
+• cidr: CIDR of network. IE IP range of given network, unique (text)
+• net_range: First and last IP of network separated by “–“, (text)
+• net_type: Type of network. Reassigned is customer and direct allocation is organization, (text)
+• asn: Autonomous system number(s) for the network. Can be multiple per network (text)
+• org_cust_id: Identifier for Organization or customer that owns the network. Not unique (text)
+• updated: Date that the record has been updated in ARIN, not unique (date)
+
+Organization Data
+• org_id: Organization identifier, unique (text)
+• org_name: Organization Name, not unique (text)
+• updated: Date that the record has been updated in ARIN, not unique (date)
+
+Customer Data
+• cust_id: Customer identifier, unique (text)
+• cust_name: Customer Name, not unique (text)
+• updated: Date that the record has been updated in ARIN, not unique (date)
