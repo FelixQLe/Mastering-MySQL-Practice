@@ -6,10 +6,14 @@ This repository offers a range of SQL exercises, queries, and challenges to aid 
 
 Features
 Various Difficulty Levels: Exercises are categorized by difficulty, ranging from beginner to advanced, allowing users to progress at their own pace.
+
 Interactive Queries: Practice writing SQL queries within the platform to receive instant feedback and verification.
+
 Detailed Solutions: Each exercise includes detailed solutions, allowing users to compare their answers and learn from different approaches.
+
 MySQL Database Integration: Access a pre-configured MySQL database to run queries and test your SQL skills in a real-world scenario.
 Getting Started
+
 To get started with this SQL Practice Playground, follow these steps:
 
 Clone the Repository: git clone https://github.com/FelixQLe/Mastering-MySQL-Practice.git
